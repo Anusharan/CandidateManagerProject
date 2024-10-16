@@ -11,6 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandidateManager.Infrastruc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateManager.Application", "CandidateManager.Application\CandidateManager.Application.csproj", "{ADBDEFD5-DFE2-486D-B6BA-A2DC49712CFF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA39DE49-DC90-42FA-A0B4-9CE805A34936}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CandidateManager.Tests", "CandidateManager.Tests\CandidateManager.Tests.csproj", "{66807133-4CD1-4111-9571-7523CA17F660}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +40,10 @@ Global
 		{ADBDEFD5-DFE2-486D-B6BA-A2DC49712CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADBDEFD5-DFE2-486D-B6BA-A2DC49712CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADBDEFD5-DFE2-486D-B6BA-A2DC49712CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66807133-4CD1-4111-9571-7523CA17F660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66807133-4CD1-4111-9571-7523CA17F660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66807133-4CD1-4111-9571-7523CA17F660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66807133-4CD1-4111-9571-7523CA17F660}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

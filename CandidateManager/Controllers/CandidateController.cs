@@ -1,4 +1,5 @@
 ﻿using CandidateManager.Application.Ports;
+using CandidateManager.Core.Entities;
 using CandidateManager.DTOs;
 using CandidateManager.Mappers;
 using Microsoft.AspNetCore.Mvc;
@@ -17,11 +18,15 @@ namespace CandidateManager.Controllers
         }
 
         [HttpPost]
-        public ActionResult CreateOrUpdateCandidate([FromBody] CandidateDto candidateDto)
+        public ActionResult CreateOrUpdateCandidate([FromBody] Candidate candidate)
         {
-            var candidate = CandidateMapper.ConvertToEntity(candidateDto);
+            if(candidate == null)
+            {
+                return BadRequest("Candidate data is required.");
+            }
             _candidateService.CreateOrUpdateCandidate(candidate);
             return Ok();
+
         }
     }
 }
