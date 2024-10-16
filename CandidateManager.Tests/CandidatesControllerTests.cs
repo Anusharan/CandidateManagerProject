@@ -1,7 +1,6 @@
 ﻿using CandidateManager.Application.Ports;
 using CandidateManager.Controllers;
 using CandidateManager.Core.Entities;
-using CandidateManager.DTOs;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Moq;

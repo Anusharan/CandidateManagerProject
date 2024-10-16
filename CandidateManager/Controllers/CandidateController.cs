@@ -1,7 +1,5 @@
 ﻿using CandidateManager.Application.Ports;
 using CandidateManager.Core.Entities;
-using CandidateManager.DTOs;
-using CandidateManager.Mappers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CandidateManager.Controllers
