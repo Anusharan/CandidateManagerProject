@@ -1,0 +1,23 @@
+# Ignore IDE and editor settings
+.vscode/
+*.suo
+*.user
+
+# Ignore build output
+bin/
+obj/
+
+# Ignore sensitive configuration
+*.config
+*.env
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore user-specific files
+.vscode/
+.vs/
+*.vsid
+*.user
+*.suo
